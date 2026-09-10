@@ -1,8 +1,8 @@
 name: master-merge
 on:
   workflow_dispatch:
-  schedule:
-    - cron: 0 2 * * 6
+  # schedule:
+  #   - cron: 0 2 * * 6
 
 permissions:
   contents: read
