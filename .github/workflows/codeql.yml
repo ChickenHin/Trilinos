@@ -5,8 +5,8 @@ on:
     types:
       - opened
       - synchronize
-  schedule:
-    - cron: '41 23 * * 2'
+  # schedule:
+  #   - cron: '41 23 * * 2'
   workflow_dispatch:
 
 # Cancels any in progress workflows associated with this PR
