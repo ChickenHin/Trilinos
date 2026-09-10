@@ -7,9 +7,9 @@
 name: MueLu tutorial
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - develop
+  # push:
+  #   branches:
+  #     - develop
 
 permissions:
   contents: read
